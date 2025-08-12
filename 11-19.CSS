@@ -1,0 +1,12 @@
+h2{
+    text-align: center;
+    color: blue;
+}
+fieldset{
+    width: 50%;
+    margin: 100px auto;
+    border-radius: 30px;
+    color: white;
+    background: linear-gradient(180deg,skyblue,pink);
+}
+
