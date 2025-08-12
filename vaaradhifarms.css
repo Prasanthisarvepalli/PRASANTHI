@@ -1,0 +1,264 @@
+<style>
+
+  .body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+  }
+
+  .container1{
+     background-color: white;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+     position: sticky;
+     top: 10px;
+  }
+  .container{
+    background-color: orange;
+    display: flex;
+    justify-content: flex-end;
+    align-items: first baseline;
+    font-weight: bold;
+    color: white;       
+    direction: left;
+    font-size: large;
+    padding: 10px;
+  } 
+
+
+  .container1{
+    display: flex;           
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+  }
+  .container1__item1{
+    display: flex;
+    position: relative;
+    right: 170px;               
+  }
+  .container1__item2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 20px;
+    font-size: 20px;   
+    gap: 30px;
+  } 
+  .container1__item2 a:hover{
+    color: orange;
+  }
+  .container1__item3 i:hover{
+    color: orange;
+  }
+  .dropdown{
+    position: relative;
+    display: inline-block;
+  }
+  .dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    color: black;
+  }
+  .dropdown-content a {
+    padding: 10px 15px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown-content a:hover{
+    background-color: orange;
+  }
+  .dropdown:hover .dropdown-content{
+    display: block;
+  }
+  .dropdown:hover .dropbtn {
+    color: orange;
+  }
+  .container1__item3{
+    display: flex;
+    position: relative;
+    left:170px;
+    gap: 40px;                
+  } 
+  
+  
+  .container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    position: relative;
+    top: -22px;                
+  }
+
+
+  .container3{
+    display: flex;
+    position: relative;
+    font-size: 20px;
+    bottom: 5px;
+    left: 30px;               
+  }
+
+
+  .c1{
+    color: orange;
+  }
+  .container4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container4__c1{
+    border: 1px solid gray;              
+    width: 5vw;  
+    height: 8vh;            
+    padding: 2px;
+    justify-content: center;
+    text-align: center;
+    border-radius: 5px;
+    position: relative;
+    font-size: 20px;
+    right: 420px;
+    top: 5px;
+  }
+  .container4__c2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; 
+    font-size: 20px;
+    left: 250px;
+    gap:40px;
+    top: 20px;
+  }
+  .container4__c3{
+    display: flex;
+    position: relative;
+    font-size: 20px;
+    left:300px;
+    gap:20px;  
+    top: 20px;                                
+  }
+  .container4__c4{
+    display: flex;
+    position: relative;
+    font-size: 20px;
+    left: 400px;
+    justify-content: center;
+    align-items: center;
+    top:20px ;  
+  }
+  
+  .container5{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+  }
+  .sidebar {
+    width: 250px;
+    padding: 20px;
+    border-right: 1px solid #ccc;
+  }
+
+  .filter-group {
+    margin-bottom: 25px;
+  }
+
+  .filter-title {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .checkbox-label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  .checkbox-label input[type="checkbox"] {
+    margin-right: 8px;
+  }
+
+  .count {
+    color: gray;
+  }
+
+  .price-inputs {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+
+  .price-inputs input {
+    width: 100px;
+    padding: 5px;
+  }
+
+  .show-more {
+    color: orange;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  .img1{
+    position: relative;
+    top: -50px;
+  }
+
+  .logo{
+    text-align: center;
+    background-color: orange;
+    height: 90vh;
+    padding: 40px;
+    width: 100%;          
+  }
+
+  .footer__c1{
+    font-size: 14px;
+    position: relative;
+    bottom: 470px;
+    color: white;
+    font-size: 20px;      
+  }
+          
+  .footer__c2{
+    margin-left:500px;
+    padding-bottom: 200px;
+    position: relative;
+    bottom: 720px;
+    font-size: 20px;
+  }
+    
+  .footer__c1 a{
+    display: flex;
+    flex: 1px;
+    color: black;
+    text-decoration: none;
+    margin-bottom: 10px;
+    padding-left: 310px;
+    position: relative;
+    top:550px;
+    color: white;       
+  }
+
+  .footer__c2 a{
+    display: flex;
+    flex: 1px;
+    color: black;
+    text-decoration: none;
+    margin-top:10px;
+    padding-left: 360px;
+    position: relative;
+    top:570px;
+    color: white;
+  }
+  
+</style>
